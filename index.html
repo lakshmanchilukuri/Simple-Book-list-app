@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklist</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading"><img id="hlogo" src="images/logo.png" alt="book"> My<span id="bookspan">Book</span>List </h1>
+        
+        <form class="form">
+            <div id="msg"></div>
+            <div>
+                <label for="title">Title </label>
+            </div>
+            <div>
+                <input type="text" class="text-input" id="title"></input>
+            </div>
+            <div>
+                <label for="author">Author </label>
+            </div>
+            <div>
+                <input type="text" class="text-input" id="author"></input>
+            </div>
+            <div>
+                <label for="isbn">ISBN </label>
+            </div>
+            <div>
+                <input type="text" class="text-input" id="isbn"></input>
+            </div>
+
+            <button id="button" class="button text-input">ADD</button>
+        </form>
+        <table id="display-table"  ;>
+            <thead>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th></th>
+            </thead>
+            <tbody id="body">
+              
+            </tbody>
+
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

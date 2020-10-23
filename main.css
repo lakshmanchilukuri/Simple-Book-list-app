@@ -1,0 +1,113 @@
+body{
+    box-sizing: border-box;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+#heading{
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+}
+
+#bookspan{
+    color:rgb(14, 163, 138);
+}
+#hlogo{
+    height: 30px;
+    width:  30px;
+    
+}
+
+
+.text-input{
+   
+   
+    width:  350px;
+    
+    margin-top: 2px;
+    margin-bottom: 10px;
+    /*below two lines added as text input size and submit size are  not same*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+   
+    
+}
+.form{
+    text-align: left;
+    
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+
+  /*
+  text-align: center;
+  */ 
+}
+.button{
+    color:white;
+    background-color:rgb(14, 207, 175);
+   
+    height: 30px;
+   
+    border:0px;
+    border-radius: 2px;
+}
+
+#display-table{
+    
+    display:none ;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+   border-collapse: collapse;
+   text-align: center;
+}
+
+ tr {
+    border-top:rgb(14, 207, 175)1px solid;
+}
+
+td{
+    margin-left: 1px;
+    padding:5px;
+     width: 28%; 
+}
+tr:nth-child(even) {
+    background-color:rgba(0, 0, 0, 0.05);
+  }
+
+.cancel-btn{
+color: white;
+
+ background-color: red;
+ padding: 0.25rem;
+ 
+  }
+
+  .msg-error{
+    box-sizing: border-box;
+     color: rgb(241, 235, 235);
+    width: 100%;
+    width:  350px;
+    padding: 0.35rem;
+    background-color: red;
+  }
+
+  .msg-sucess{
+    box-sizing: border-box;
+     color: rgb(230, 223, 223);
+    width: 100%;
+    width:  350px;
+    padding: 0.35rem;
+    background-color: green;
+  }
